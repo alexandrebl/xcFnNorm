@@ -5,15 +5,15 @@
 //
 input
   valor(1.1);
-  priod(1000);
+  period(1000);
 var
   data, minVal, maxVal : real;
 begin
   //
   // Variables
   //
-  minVal :=  Lowest(valor, 1000);
-  maxVal := Highest(valor, 1000);
+  minVal :=  Lowest(valor, period);
+  maxVal := Highest(valor, period);
   //
   // Calculation
   //
